@@ -1,6 +1,6 @@
-# KDBG image
-
 ![logo](img/bug.png)
+
+# KDBG image
 
 KDBG is a small docker container based on lastest Alpine Linux image, used for debugging Kubernetes clusters from inside a pod.
 
