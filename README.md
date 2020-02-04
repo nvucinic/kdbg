@@ -17,7 +17,7 @@ docker build -t nvucinic/kdbg .
 Run as a interactive pod in your kubernetes cluster:
 
 ```
-kubectl run --generator=run-pod/v1 -it --rm kdgb --restart=Never --image=nvucinic/kdbg --  bash
+kubectl run --generator=run-pod/v1 -it --rm=true kdgb --restart=Never --image=nvucinic/kdbg --  bash
 ```
 
 
