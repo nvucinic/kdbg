@@ -1,5 +1,5 @@
 <p align="center">
-  <img img/logo.png />
+  <img src="img/logo.png" alt"logo" />
 </p>
 
 # KDBG image
