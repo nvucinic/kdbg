@@ -1,4 +1,6 @@
-![logo](img/bug.png)
+<p align="center">
+  <img img/logo.png />
+</p>
 
 # KDBG image
 
@@ -6,12 +8,16 @@ KDBG (Kubernetes Debuger) is a small docker container based on lastest Alpine Li
 
 This image is built to be small (~26MB) and efficient. 
 
-## Build
+## Build locally
 
 ```bash
-docker build -t nvucinic/kdbg .
+docker build -t kdbg .
 ```
+## Pull from DockerHub
 
+```bash
+docker pull nvucinic/kdbg
+```
 ## Usage
 
 Run as a interactive pod in your kubernetes cluster:
