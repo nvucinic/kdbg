@@ -8,3 +8,4 @@ RUN apk add --no-cache bash \
         netcat-openbsd \
         iptraf-ng \
         tcptraceroute \
+        socat
