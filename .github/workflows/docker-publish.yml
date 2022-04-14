@@ -66,6 +66,7 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
+          tags: nvucinic/kdbg:latest
           labels: ${{ steps.meta.outputs.labels }}
 
       # Sign the resulting Docker image digest except on PRs.
