@@ -2,6 +2,8 @@
   <img src="img/bug.png" alt"logo" />
 </p>
 
+![nvucinic/kdbg docker build](https://github.com/nvucinic/kdbg/actions/workflows/docker-publish.yml/badge.svg)
+
 # KDBG image
 
 KDBG (Kubernetes Debuger) is a small docker container based on lastest Alpine Linux image, used for debugging Kubernetes clusters from inside a pod.
