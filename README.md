@@ -2,7 +2,8 @@
   <img src="img/bug.png" alt"logo" />
 </p>
 
-[![build](https://github.com/nvucinic/kdbg/workflows/docker-build/badge.svg)](https://github.com/nvucinic/kdbg/actions)   [![docker-pull](https://img.shields.io/docker/pulls/nvucinic/kdbg)](https://img.shields.io/docker/pulls/nvucinic/kdbg)
+[![build](https://github.com/nvucinic/kdbg/workflows/docker-build/badge.svg)](https://github.com/nvucinic/kdbg/actions)  
+<img align="right" width="100" height="100" src="https://img.shields.io/docker/pulls/nvucinic/kdbg">
 
 
 
