@@ -12,8 +12,6 @@ env:
   REGISTRY: docker.io
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
-  # tag on dockerhub repo
-  TAG: latest
 
 
 jobs:
@@ -68,7 +66,6 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
-          tags:  ${{ env.TAG }}
           labels: ${{ steps.meta.outputs.labels }}
 
       # Sign the resulting Docker image digest except on PRs.
