@@ -2,8 +2,7 @@
   <img src="img/bug.png" alt"logo" />
 </p>
 
-[![nvucinic/kdbg Docker Actions Status](https://github.com/nvucinic/kdbg/workflows/docker-build/badge.svg)](https://github.com/nvucinic/kdbg/actions)
-
+[![nvucinic/kdbg Docker Actions Status](https://github.com/nvucinic/kdbg/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/nvucinic/kdbg/actions/workflows/docker-publish.yml)
 
 
 # KDBG image
