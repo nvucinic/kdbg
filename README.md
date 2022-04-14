@@ -3,6 +3,8 @@
 </p>
 
 [![docker-build](https://github.com/nvucinic/kdbg/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/nvucinic/kdbg/actions/workflows/docker-publish.yml)
+[![build](https://github.com/nvucinic/kdbg/workflows/docker-build/badge.svg)](https://github.com/nvucinic/kdbg/actions)
+
 
 [![docker-pull](https://img.shields.io/docker/pulls/nvucinic/kdbg)](https://img.shields.io/docker/pulls/nvucinic/kdbg)
 
