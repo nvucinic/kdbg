@@ -5,7 +5,7 @@ RUN apk add --no-cache \
         curl=7.80.0-r0 \
         iptraf-ng=1.2.1-r0 \
         iputils=20210722-r0 \
-        mtr=0.93-r2 \
+        mtr=0.94-r1 \
         netcat-openbsd=1.130-r3 \
         socat=1.7.4.2-r0 \
         tcptraceroute=1.5b7-r3
