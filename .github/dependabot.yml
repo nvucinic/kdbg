@@ -1,0 +1,8 @@
+## Check for package updates 
+
+version: 2
+updates:
+  - package-ecosystem: "apk" 
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
