@@ -2,7 +2,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "apk" 
+  - package-ecosystem: "docker" 
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
