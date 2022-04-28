@@ -28,7 +28,7 @@ docker pull nvucinic/kdbg
 Run as a interactive pod in your kubernetes cluster:
 
 ```
-kubectl run -it --rm=true kdbg --restart=Never --image=nvucinic/kdbg --  /bin/bash
+kubectl run -it --rm=true kdbg --restart=Never --image=nvucinic/kdbg --  /bin/sh
 ```
 Run commands directly from kdbg container:
 
