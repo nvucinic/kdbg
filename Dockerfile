@@ -1,11 +1,11 @@
-FROM alpine:3.16.2
+FROM alpine:3.17.0
 LABEL maintainer="neven.vucinic@nvteh.com"
 RUN apk add --no-cache \
-        bind-tools=9.16.29-r0 \
-        curl=7.83.1-r2 \
-        iptraf-ng=1.2.1-r0 \
+        bind-tools=9.18.9-r0 \
+        curl=7.86.0-r1 \
+        iptraf-ng=1.2.1-r1 \
         iputils=20211215-r0 \
         mtr=0.95-r1 \
-        netcat-openbsd=1.130-r3 \
-        socat=1.7.4.3-r0 \
-        tcptraceroute=1.5b7-r3
+        netcat-openbsd=1.130-r4 \
+        socat=1.7.4.4-r0 \
+        tcptraceroute=1.5b7-r4
