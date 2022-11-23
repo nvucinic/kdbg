@@ -1,4 +1,4 @@
-FROM alpine:3.16.2
+FROM alpine:3.17.0
 LABEL maintainer="neven.vucinic@nvteh.com"
 RUN apk add --no-cache \
         bind-tools=9.16.29-r0 \
