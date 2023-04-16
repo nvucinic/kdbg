@@ -1,8 +1,8 @@
 FROM alpine:3.17.3
 LABEL maintainer="neven.vucinic@nvteh.com"
 RUN apk add --no-cache \
-        bind-tools=9.18.11-r0 \
-        curl=7.88.1-r1 \
+        bind-tools=9.18.13-r0 \
+        curl=8.0.1-r0 \
         iptraf-ng=1.2.1-r1 \
         iputils=20211215-r0 \
         mtr=0.95-r1 \
