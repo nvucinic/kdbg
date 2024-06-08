@@ -39,7 +39,7 @@ kubectl run -it --rm=true kdbg --restart=Never --image=nvucinic/kdbg --  /bin/sh
   "apiVersion": "v1",
   "spec": {
     "nodeSelector": {
-      "kubernetes.io/hostnam": "NODENAME"
+      "kubernetes.io/hostname": "NODENAME"
     }
   }
 }'
