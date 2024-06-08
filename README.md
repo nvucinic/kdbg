@@ -25,11 +25,26 @@ docker pull nvucinic/kdbg
 ```
 ## Usage
 
-Run as a interactive pod in your kubernetes cluster:
+Run as an interactive pod in your Kubernetes cluster:
 
 ```
 kubectl run -it --rm=true kdbg --restart=Never --image=nvucinic/kdbg --  /bin/sh
 ```
+
+Run on a specific node in your Kubernetes cluster:
+
+```
+kubectl run -it --rm=true kdbg --restart=Never --image=nvucinic/kdbg --  /bin/sh --overrides='
+{
+  "apiVersion": "v1",
+  "spec": {
+    "nodeSelector": {
+      "kubernetes.io/hostnam": "NODENAME"
+    }
+  }
+}'
+```
+
 Run commands directly from kdbg container:
 
 ```
